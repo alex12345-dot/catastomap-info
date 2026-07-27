@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fonti e riferimenti — CatastoMap</title>
+<meta name="description" content="Enti e servizi che pubblicano i dati usati da CatastoMap, con le relative licenze.">
+<style>
+:root{color-scheme:light}
+body{margin:0;background:#eef3f2;color:#122733;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+header{background:linear-gradient(120deg,#0d5364,#22968a);color:#fff;padding:26px 20px}
+header div{max-width:760px;margin:0 auto}
+h1{margin:0;font-size:26px}
+header p{margin:6px 0 0;color:#cfeee8}
+h2{font-size:18px;margin:30px 0 8px;color:#0d5364}
+a{color:#0b6fa4}
+footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:#5b7385;font-size:14px}
+</style>
+</head>
+<body>
+<header><div><h1>Fonti e riferimenti</h1><p>Tutti i dati mostrati da CatastoMap provengono da servizi pubblici, citati qui con i rispettivi titolari.</p></div></header>
+<main>
+<h2>Catasto</h2>
+<p><a href="https://www.agenziaentrate.gov.it/">Agenzia delle Entrate</a> — servizi INSPIRE WMS e WFS della
+cartografia catastale (particelle e fogli). La consultazione è cartografica: l'app non fornisce visure
+né dati di intestazione.</p>
+
+<h2>Frane e alluvioni</h2>
+<p><a href="https://idrogeo.isprambiente.it/">ISPRA — piattaforma IdroGEO</a>: mosaicature nazionali di
+pericolosità da frana PAI, pericolosità e aree allagabili PGRA, inventario IFFI.</p>
+
+<h2>Paesaggio e aree tutelate</h2>
+<p><a href="https://sitap.cultura.gov.it/">Ministero della Cultura — SITAP</a> per vincoli e contesti
+paesaggistici; <a href="https://www.eea.europa.eu/">Agenzia europea dell'ambiente</a> per Rete Natura 2000.</p>
+
+<h2>Suolo, habitat e geologia</h2>
+<p>Servizi ISPRA e SNPA per consumo di suolo, Carta della Natura, litologia, sinkhole, dinamica dei
+litorali e catalogo delle faglie capaci ITHACA.</p>
+
+<h2>Pericolosità sismica</h2>
+<p><a href="https://www.ingv.it/">INGV</a> per il modello di pericolosità MPS04; Dipartimento della
+Protezione Civile e CNR-IGAG per gli studi di microzonazione sismica (Web-MS).</p>
+<p>Il livello <strong>Vs30 nazionale</strong> riproduce la mappa di F. Mori, G. Naso, A. Mendicelli e
+G. Ciotoli, <em>Machine learning-based national Vs30 models and maps for Italy</em>, Soil Dynamics and
+Earthquake Engineering 203 (2026), <a href="https://doi.org/10.1016/j.soildyn.2025.110077">doi:10.1016/j.soildyn.2025.110077</a>;
+dataset CNR-IGAG / DPC su <a href="https://zenodo.org/records/17800638">Zenodo (record 17800638)</a>, licenza
+<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Il raster originale a 300 m è
+ricampionato a circa 600 m e classificato per categoria di sottosuolo NTC 2018.</p>
+
+<h2>Geoportale Nazionale MASE</h2>
+<p><a href="https://gn.mase.gov.it/portale/home">Geoportale Nazionale</a> del Ministero dell'Ambiente e
+della Sicurezza Energetica: 364 livelli aggiuntivi tra dati vettoriali, raster, ortofoto storiche e LiDAR.</p>
+
+<h2>Geoportali regionali</h2>
+<p>I livelli regionali sono caricati dai servizi pubblici indicati accanto a ciascun tema nell'app.
+Copertura, legenda, scala e aggiornamento dipendono dal geoportale competente.</p>
+
+<h2>Cartografia di base</h2>
+<p><a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL) per la mappa stradale e la
+ricerca dei luoghi tramite Nominatim; Esri, Maxar, Earthstar Geographics per l'ortofoto satellitare;
+<a href="https://leafletjs.com/">Leaflet</a> (BSD-2) come motore di mappa; elenco dei codici catastali dei
+comuni derivato dai dati ISTAT.</p>
+
+<h2>Come leggere gli esiti</h2>
+<p>"Rilevato" indica un'intersezione nel punto interrogato sul livello selezionato. "Non rilevato" non
+certifica l'assenza di vincoli. Per pratiche, acquisti o progettazione occorre verificare atti, perimetri
+e norme presso gli enti competenti.</p>
+</main>
+<footer>CatastoMap · <a href="privacy.html">Privacy</a> · <a href="termini.html">Termini e condizioni</a></footer>
+</body>
+</html>
