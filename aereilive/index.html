@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AereiLive — voli in tempo reale, senza abbonamento</title>
+<meta name="description" content="AereiLive: gli aerei che volano adesso e i voli che collegano due aeroporti. App Android gratuita, senza account.">
+<style>
+:root{color-scheme:light}
+body{margin:0;background:#eef4f9;color:#122733;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+header{background:linear-gradient(120deg,#0f4a7a,#1769aa);color:#fff;padding:34px 20px}
+header div{max-width:760px;margin:0 auto}
+h1{margin:0;font-size:30px}
+header p{margin:8px 0 0;color:#cfe6f7}
+h2{font-size:18px;margin:28px 0 8px;color:#0f4a7a}
+a{color:#0b6fa4}
+ul{padding-left:20px}
+.cards{display:grid;gap:12px;margin-top:18px}
+.cards a{display:block;background:#fff;border:1px solid #dbe7f0;border-radius:12px;padding:14px 16px;text-decoration:none;color:#0f4a7a;font-weight:700}
+footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:#5b7385;font-size:14px}
+</style>
+</head>
+<body>
+<header><div><h1>AereiLive</h1><p>Voli in tempo reale, senza abbonamento</p></div></header>
+<main>
+
+<p>AereiLive mostra gli aerei che stanno volando in questo momento e i voli che collegano due
+aeroporti qualsiasi. Nessun account, nessuna registrazione.</p>
+
+<h2>Che cosa fa</h2>
+<ul>
+  <li><strong>Cerca una tratta</strong>: scrivi partenza e arrivo e vedi i voli che la servono.
+      Le città con più scali sono riconosciute — «Roma» comprende Fiumicino e Ciampino, «Milano»
+      comprende Malpensa, Linate e Orio al Serio.</li>
+  <li><strong>Trova un aereo</strong> da numero di volo, callsign, targa o codice ICAO24, con
+      quota, velocità e rotta.</li>
+  <li><strong>Radar</strong> dello spazio aereo italiano o della zona intorno a te.</li>
+  <li><strong>Preferiti</strong> per seguire i voli che ti interessano.</li>
+</ul>
+
+<h2>Niente dati inventati</h2>
+<p>Un orario compare solo se lo pubblica l'aeroporto; la posizione solo se l'aereo è davvero
+ricevuto dalla rete ADS-B. Se una fonte non risponde o è temporaneamente satura, l'app lo scrive
+invece di far credere che il cielo sia vuoto.</p>
+
+<h2>Fonti dei dati</h2>
+<ul>
+  <li>Posizioni degli aeromobili: <a href="https://adsb.lol">ADSB.lol</a> (ODbL 1.0)</li>
+  <li>Collegamenti e numeri di volo:
+      <a href="https://github.com/vradarserver/standing-data">VRS standing-data</a> (CC0 1.0)</li>
+  <li>Orari ufficiali: <a href="https://aeroporto.catania.it">Aeroporto di Catania</a>,
+      <a href="https://www.adr.it">Aeroporti di Roma</a>, <a href="https://avinor.no">Avinor</a> (NLOD)</li>
+  <li>Rotte per callsign: <a href="https://www.adsbdb.com">adsbdb.com</a>,
+      <a href="https://hexdb.io">hexdb.io</a></li>
+  <li>Catalogo aeroporti: <a href="https://ourairports.com">OurAirports</a> (pubblico dominio)</li>
+</ul>
+<p>I dati provengono da terzi e possono essere incompleti o non aggiornati. AereiLive non è un
+servizio ufficiale di alcuna compagnia aerea o aeroporto e non sostituisce le informazioni del
+vettore o dello scalo.</p>
+
+<div class="cards">
+  <a href="privacy.html">Informativa sulla privacy</a>
+</div>
+
+</main>
+<footer>Sviluppatore: Alessio Moscaritoli — alessio.moscaritoli@gmail.com</footer>
+</body>
+</html>
